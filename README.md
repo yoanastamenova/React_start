@@ -1,4 +1,4 @@
-# React + Vite
+<!-- # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -6,7 +6,7 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+ -->
 
 
 # STEPS TO FOLLOW WHEN WORKING WITH REACT 
@@ -28,4 +28,17 @@ Currently, two official plugins are available:
 ## START AMENDING FILES
 
 4. In App.css and index.css remove everyhing and leave root only
-5.  
+
+5. Only work in App.jsx
+
+6. New code should go in function App()
+
+7. To declare variables we use the hook useState()
+ex:
+` const [name, function] = useState(value of the variable)`
+
+name - the name of our variable
+function - the function which will be executed for this variable
+value - the value of the variable
+
+8. 
