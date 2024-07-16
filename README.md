@@ -15,6 +15,8 @@ Currently, two official plugins are available:
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 </div>
 
+## START REPOSITORY
+
 1. ` npm create vite@latest `
 
 2. Choose options such as:
