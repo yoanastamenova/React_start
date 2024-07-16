@@ -1,40 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { Counter } from "./components/Counter/Counter";
 
 function App() {
-  // Declaracion de variables y funciones y codigo js
-    const title = "Counter";
-    // let initValue = 0;
-
-    const [initValue, setInitValue] = useState(0)      //declare variable
-
-    function decrement() {
-         console.log("decrement")
-
-         setInitValue(initValue - 1)
-
-         console.log(initValue)
-    }
-
-    const increment = () => {
-      console.log("increment")
-
-      setInitValue(initValue +1)
-
-      console.log(initValue)
-    }
-
+  // the title imported below is the component we have in the components folder
   return (
     <>
-        <h1> {title} </h1>
+      {/* /* <Title name="Counter"/>                 
 
-        <button onClick={decrement}> - </button>
-        <div> {initValue} </div>
-        <button onClick={increment}> + </button>
+      {/* <button onClick={decrement}> - </button>    
+      <CButton content="+" onclick={increment} clase="button-success"/>             
+      <div> {initValue} </div>
+      {/* <button onClick={increment}> + </button>  content(name of the prop) and onclick(function) 
+      <CButton content="-" onclick={decrement} clase="button-decrement"/>
+      <br></br>
+      <br></br>
+      <CButton content="Reset counter" onclick={reset} clase="button-reset" /> */} 
+
+      <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
